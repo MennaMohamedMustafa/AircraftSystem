@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Application Manager">
+      <UniqueIdentifier>{0fccbda0-7eb0-4be9-b950-89bf82f21059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{b3629e3f-7183-4501-ab04-2812ba0ddad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{24d5c320-092e-494b-98dc-29e3d0a9e77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler Camera">
+      <UniqueIdentifier>{3e63fb8e-5ea5-46e7-989a-720d112ca02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ffdc3379-c388-4695-bf51-9dc0de42ceff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJLoader">
+      <UniqueIdentifier>{4b730729-df22-4576-870c-19c536cae04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{a4e0ef70-e3bf-4786-a707-9da2714038f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture\Texture Loader">
+      <UniqueIdentifier>{d7fd6632-4555-4c25-bea4-c8f540634ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{9040fa8e-8d16-4a61-8836-6842755cad7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderProgram">
+      <UniqueIdentifier>{95164bf2-6320-4ee7-9ef8-6f8de38fbd5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="EulerCamera\EulerCamera.cpp">
+      <Filter>Euler Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Application Manager\ApplicationManager.cpp">
+      <Filter>Application Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader\objloader.cpp">
+      <Filter>OBJLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\Texture Loader\stb_image.c">
+      <Filter>Texture\Texture Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Model3D.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TexturedModel.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDevice\ShaderProgram.cpp">
+      <Filter>ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ModelNode.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MultiColor.fragmentshader">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="SimpleTransformWithColor.vertexshader">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\shader.hpp">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerCamera\EulerCamera.h">
+      <Filter>Euler Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Application Manager\ApplicationManager.h">
+      <Filter>Application Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader\objloader.hpp">
+      <Filter>OBJLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture Loader\stb_image.h">
+      <Filter>Texture\Texture Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Model3D.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TexturedModel.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDevice\ShaderProgram.h">
+      <Filter>ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ModelNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdCamera.h">
+      <Filter>Euler Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Euler Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
